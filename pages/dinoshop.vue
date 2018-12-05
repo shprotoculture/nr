@@ -356,13 +356,11 @@ export default {
     }
 
     .dino-contacts {
-        background: #00b1fd;
         &__content {
             padding: 50px 0;
-            border-top: 1px solid #30c1ff;
         }
         &__text {
-            color: #fff;
+            color: #00b1fd;
             padding-left: 45px;
             p {
                 font-family: 'Amatic SC', cursive;
@@ -378,7 +376,7 @@ export default {
                     font-weight: 300;
                 }
                 a {
-                    color: #fff;
+                    color: #00b1fd;
                     margin-right: 15px;
                 }
             }
