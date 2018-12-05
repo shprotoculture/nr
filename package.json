@@ -1,0 +1,40 @@
+{
+  "name": "nr",
+  "version": "1.0.0",
+  "description": "Natalia Romanova",
+  "author": "Nikolay <shprotoculture@yandex.ru>",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "192.168.1.193",
+      "port": "1111"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.2",
+    "axios": "^0.18.0",
+    "fancybox": "^3.0.1",
+    "jquery": "^3.3.1",
+    "nuxt": "^2.0.0",
+    "vue-awesome-swiper": "^3.1.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.10.0",
+    "postcss": "^7.0.6",
+    "postcss-salad": "^2.0.1",
+    "sass-loader": "^7.1.0"
+  }
+}

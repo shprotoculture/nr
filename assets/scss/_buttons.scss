@@ -1,0 +1,15 @@
+.button {
+    display: inline-block;
+    &--primary {
+        padding: 15px 35px;
+        background: #D2D4C0;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        transition: .25s ease;
+        &:hover {
+            background: #abb175;
+        }
+    }
+}
