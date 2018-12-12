@@ -15,7 +15,7 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&amp;subset=cyrillic'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700&amp;subset=cyrillic'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Amatic+SC:400,700&amp;subset=cyrillic'},
-    ]
+    ],
   },
   css: [
     {src: '~/assets/scss/import.scss', lang: 'scss'},
@@ -52,5 +52,17 @@ module.exports = {
       }
     }
   },
+  modules: [
+    [
+      '@nuxtjs/yandex-metrika',
+      {
+        id:51467396,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+      }
+    ],
+  ]
 }
 
