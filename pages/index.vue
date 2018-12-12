@@ -41,7 +41,7 @@
                                     <img src="/img/romanova-charger-logo.png" alt="">
                                 </div>
                                 <div class="benefit__title">Romanovа Charger</div>
-                                <div class="benefit__text">Это самые компактные повер банки, ёмкостью 3000 mAh, с прямым подключением к телефону + инкрустированные кристаллами Swarovski прямо с завода в Австрии.</div>
+                                <div class="benefit__text">Компактные повер банки, ёмкостью 3000 mAh, с прямым подключением к телефону + инкрустированные кристаллами Swarovski прямо с завода в Австрии.</div>
                             </nuxt-link>
                         </div>
                     </div>
