@@ -4,12 +4,6 @@
   "description": "Natalia Romanova",
   "author": "Nikolay <shprotoculture@yandex.ru>",
   "private": true,
-  "config": {
-    "nuxt": {
-      "host": "192.168.1.193",
-      "port": "1111"
-    }
-  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

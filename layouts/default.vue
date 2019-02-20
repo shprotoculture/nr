@@ -1,12 +1,15 @@
 <template>
-  <div>
-    <app-header></app-header>
-    <transition name="page" @after-enter="afterPageEnter()">
-      
-      <nuxt/>
-    </transition>
-    
-  </div>
+	<div>
+		<app-header></app-header>
+		<transition
+		 name="page"
+		 @after-enter="afterPageEnter()"
+		>
+
+			<nuxt />
+		</transition>
+
+	</div>
 </template>
 <script>
 import AppHeader from '~/components/AppHeader';
@@ -23,20 +26,19 @@ export default {
 </script>
 
 <style lang="scss">
+.page-enter {
+	opacity: 0;
+}
 
-  .page-enter {
-    opacity: 0;
-  }
+.page-enter-to {
+	opacity: 1;
+	transition: 0.5s ease;
+}
 
-  .page-enter-to {
-      opacity: 1;
-      transition: 0.5s ease;
-  }
-
-  .page-leave-to {
-    opacity: 0;
-    transition: 0.5s ease;
-    position: absolute;
-  }
+.page-leave-to {
+	opacity: 0;
+	transition: 0.5s ease;
+	position: absolute;
+}
 </style>
 
